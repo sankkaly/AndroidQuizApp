@@ -5,4 +5,10 @@
     <string name="please_enter_your_name">Please enter your name</string>
     <string name="your_name">Your Name</string>
     <string name="image_flag">image_flag</string>
+    <string name="check">check</string>
+    <string name="option_1">Option-1</string>
+    <string name="option_2">Option-2</string>
+    <string name="option_3">Option-3</string>
+    <string name="option_0">Option-0</string>
+    <string name="option_4">option-4</string>
 </resources>

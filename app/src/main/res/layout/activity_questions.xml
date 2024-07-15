@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -53,9 +52,74 @@
             <TextView
                 android:id="@+id/text_view_progress"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                tools:text="0/10"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"/>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:id="@+id/text_view_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_0"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="#535353"
+            android:gravity="center"
+            android:minHeight="50dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:id="@+id/text_view_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_2"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="#535353"
+            android:gravity="center"
+            android:minHeight="50dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:id="@+id/text_view_option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_3"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="#535353"
+            android:gravity="center"
+            android:minHeight="50dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:id="@+id/text_view_option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_4"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            android:textColor="#535353"
+            android:gravity="center"
+            android:minHeight="50dp"/>
+
+        <Button
+            android:textSize="25sp"
+            android:background="@drawable/button_shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/button_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check"
+            android:textColor="@color/white"/>
+
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>
